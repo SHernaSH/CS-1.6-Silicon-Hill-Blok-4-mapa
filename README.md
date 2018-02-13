@@ -8,3 +8,6 @@ Obsah (= ne samotnou složku) složky "mapa" překopírovat do adresáře se hro
 nejčastěji Disk C => (Program Files) => Counter-Strike 1.6 => cstrike => maps
 
 Přejeme příjemnou zábavu :D :D 
+
+
+komentáře ke zlepšení a poděkování pište na sherna@siliconhill.cz
