@@ -3,7 +3,7 @@ Mapa vytvořená po vzoru Bloku 4 na kolejích Strahov. Vytvořeno by @VáclavLu
 
 Platné pro CS 1.6 z Kotelna.cz "cs16full_v43g_cskocz.exe" (automatická instalace)
 
-Obsah (= ne samotnou složku) složky "Složka s mapou" překopírovat do adresáře se hrou
+Obsah (= ne samotnou složku) složky "mapa" překopírovat do adresáře se hrou
 
 nejčastěji Disk C => (Program Files) => Counter-Strike 1.6 => cstrike => maps
 
