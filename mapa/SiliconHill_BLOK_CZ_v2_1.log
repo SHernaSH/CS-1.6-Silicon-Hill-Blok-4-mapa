@@ -1,0 +1,278 @@
+hlcsg v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlcsg -----
+Command line: C:\Users\Vašek\Desktop\hammer\hlcsg.exe "C:\Counter-Strike 1.6\cstrike\maps\SiliconHill_BLOK_CZ_v2_1"
+Entering C:\Counter-Strike 1.6\cstrike\maps\SiliconHill_BLOK_CZ_v2_1.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 4194304 ] [ 4194304 ]
+max lighting memory   [ 6291456 ] [ 6291456 ]
+priority              [  Normal ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [      on ] [      on ]
+clip hull type        [  legacy ] [  legacy ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+nullfile              [    None ] [    None ]
+min surface area      [   0.500 ] [   0.500 ]
+brush union threshold [   0.000 ] [   0.000 ]
+
+Using mapfile wad configuration
+Wadinclude list :
+[zhlt.wad]
+
+0 brushes (totalling 0 sides) discarded from clipping hulls
+CreateBrush:
+ (0.12 seconds)
+SetModelCenters:
+ (0.00 seconds)
+CSGBrush:
+ (0.66 seconds)
+
+Using Wadfile: \counter-strike 1.6\cstrike\ajawad.wad
+ - Contains 0 used textures, 0.00 percent of map (1 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cached.wad
+ - Contains 0 used textures, 0.00 percent of map (2 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cs_747.wad
+ - Contains 3 used textures, 7.50 percent of map (143 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cs_assault.wad
+ - Contains 3 used textures, 7.50 percent of map (22 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cs_bdog.wad
+ - Contains 5 used textures, 12.50 percent of map (132 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cs_cbble.wad
+ - Contains 0 used textures, 0.00 percent of map (61 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cs_dust.wad
+ - Contains 0 used textures, 0.00 percent of map (28 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cs_havana.wad
+ - Contains 3 used textures, 7.50 percent of map (122 textures in wad)
+Including Wadfile: \users\vašek\desktop\hammer\zhlt.wad
+ - Contains 1 used texture, 2.50 percent of map (8 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cs_office.wad
+ - Contains 2 used textures, 5.00 percent of map (102 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cstraining.wad
+ - Contains 1 used texture, 2.50 percent of map (24 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\cstrike.wad
+ - Contains 6 used textures, 15.00 percent of map (123 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\de_airstrip.wad
+ - Contains 2 used textures, 5.00 percent of map (69 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\de_aztec.wad
+ - Warning: Larger than expected texture (348972 bytes): 'SPECIAL_THANKS'
+ - Warning: Larger than expected texture (348972 bytes): 'THANKS'
+ - Contains 0 used textures, 0.00 percent of map (24 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\de_piranesi.wad
+ - Contains 1 used texture, 2.50 percent of map (160 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\de_storm.wad
+ - Contains 0 used textures, 0.00 percent of map (74 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\de_vertigo.wad
+ - Contains 1 used texture, 2.50 percent of map (19 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\decals.wad
+ - Contains 0 used textures, 0.00 percent of map (225 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\chateau.wad
+ - Contains 0 used textures, 0.00 percent of map (136 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\itsitaly.wad
+ - Contains 1 used texture, 2.50 percent of map (99 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\jos.wad
+ - Contains 3 used textures, 7.50 percent of map (24 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\n0th1ng.wad
+ - Contains 0 used textures, 0.00 percent of map (8 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\prodigy.wad
+ - Contains 0 used textures, 0.00 percent of map (2 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\tempdecal.wad
+ - Contains 0 used textures, 0.00 percent of map (1 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\torntextures.wad
+ - Warning: Larger than expected texture (240172 bytes): 'TK_STONEWALLHI'
+ - Warning: Larger than expected texture (306812 bytes): 'TK_CLAYROOF'
+ - Warning: Larger than expected texture (272812 bytes): '{TK_PLANTLG'
+ - Warning: Larger than expected texture (327212 bytes): '{TK_PLANTSM'
+ - Warning: Larger than expected texture (235412 bytes): 'TK_TORNMAP'
+ - Contains 5 used textures, 12.50 percent of map (162 textures in wad)
+Using Wadfile: \counter-strike 1.6\cstrike\tswad.wad
+ - Contains 3 used textures, 7.50 percent of map (29 textures in wad)
+
+Warning: More than 8 wadfiles are in use. (26)
+This may be harmless, and if no strange side effects are occurring, then
+it can safely be ignored. However, if your map starts exhibiting strange
+or obscure errors, consider this as suspect.
+
+
+added 6 additional animating textures.
+Texture usage is at 1.82 mb (of 4.00 mb MAX)
+1.00 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlbsp -----
+Command line: C:\Users\Vašek\Desktop\hammer\hlbsp.exe "C:\Counter-Strike 1.6\cstrike\maps\SiliconHill_BLOK_CZ_v2_1"
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 4194304 ] [ 4194304 ]
+priority            [  Normal ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noopt               [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 8192)
+
+
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...3853 (0.14 seconds)
+BSP generation successful, writing portal file 'C:\Counter-Strike 1.6\cstrike\maps\SiliconHill_BLOK_CZ_v2_1.prt'
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...4000...4279 (0.14 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...3753 (0.11 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4495 (0.16 seconds)
+1.74 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlvis -----
+Command line: C:\Users\Vašek\Desktop\hammer\hlvis.exe "C:\Counter-Strike 1.6\cstrike\maps\SiliconHill_BLOK_CZ_v2_1"
+2258 portalleafs
+7795 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 4194304 ] [ 4194304 ]
+max vis distance    [       0 ] [       0 ]
+priority            [  Normal ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.81 seconds)
+LeafThread:
+ (129.87 seconds)
+average leafs visible: 258
+g_visdatasize:244510  compressed from 639014
+130.74 seconds elapsed [2m 10s]
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 Final (Feb 25 2006)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (amckern@yahoo.com)
+-----  BEGIN  hlrad -----
+Command line: C:\Users\Vašek\Desktop\hammer\hlrad.exe "C:\Counter-Strike 1.6\cstrike\maps\SiliconHill_BLOK_CZ_v2_1"
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 8 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [           4194304 ] [           4194304 ]
+max lighting memory  [           6291456 ] [           6291456 ]
+priority             [            Normal ] [            Normal ]
+
+vismatrix algorithm  [          Original ] [          Original ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 1 ] [                 1 ]
+bounce dynamic light [                on ] [                on ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+maximum light        [           255.000 ] [           256.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+direct threshold     [            25.000 ] [            25.000 ]
+direct light scale   [             2.000 ] [             2.000 ]
+coring threshold     [             1.000 ] [             1.000 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global falloff       [                 2 ] [                 2 ]
+global light scale   [ 1.000 1.000 1.000 ] [ 1.000 1.000 1.000 ]
+global gamma         [ 0.500 0.500 0.500 ] [ 0.500 0.500 0.500 ]
+global light scale   [             1.000 ] [             1.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+softlight hack       [   0.0 0.0 0.0 0.0 ] [   0.0 0.0 0.0 0.0 ]
+diffuse hack         [                on ] [                on ]
+spotlight points     [                on ] [                on ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+
+
+[Reading texlights from 'C:\Users\Vašek\Desktop\hammer\lights.rad']
+[59 texlights parsed from 'C:\Users\Vašek\Desktop\hammer\lights.rad']
+
+10148 faces
+Create Patches : 62242 base patches
+0 opaque faces
+732062 square feet [105417032.00 square inches]
+Error: No Lights!
+Description: lighting of map halted (I assume you do not want a pitch black map!)
+Howto Fix: Put some lights in the map.
+
+
+-----   END   hlrad -----
+
+
+
